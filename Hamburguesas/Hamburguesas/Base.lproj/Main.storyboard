@@ -18,42 +18,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesa" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJG-Z5-XQB">
-                                <rect key="frame" x="103" y="263" width="170" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="País" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPL-KJ-gkD">
+                                <rect key="frame" x="66" y="199" width="220" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="170" id="0rP-Q5-jgH"/>
+                                    <constraint firstAttribute="height" constant="21" id="zor-bm-SZn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="País" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPL-KJ-gkD">
-                                <rect key="frame" x="135" y="199" width="31.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wf4-pA-nFY">
-                                <rect key="frame" x="70" y="92" width="173" height="30"/>
+                                <rect key="frame" x="66" y="92" width="220" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Quiero una hamburguesa">
+                                <state key="normal" title="Quiero una hamburguesa !!!">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="cambioPaisHamburguesa" destination="BYZ-38-t0r" eventType="touchUpInside" id="4g4-hy-kGP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesa" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJG-Z5-XQB">
+                                <rect key="frame" x="66" y="262" width="220" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="XG3-pe-aX5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.74625104865771807" green="1" blue="0.69489303691275173" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.74625104870000003" green="1" blue="0.69489303690000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="JPL-KJ-gkD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="119" id="0de-aC-F6X"/>
-                            <constraint firstItem="wf4-pA-nFY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="54" id="Nb3-2G-08B"/>
-                            <constraint firstItem="wf4-pA-nFY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="72" id="P1K-eY-pRI"/>
-                            <constraint firstItem="NJG-Z5-XQB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="87" id="fhf-c8-VWd"/>
-                            <constraint firstItem="JPL-KJ-gkD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="179" id="twc-fF-Mgh"/>
-                            <constraint firstItem="NJG-Z5-XQB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="243" id="wZ6-Sw-h9w"/>
+                            <constraint firstItem="JPL-KJ-gkD" firstAttribute="trailing" secondItem="NJG-Z5-XQB" secondAttribute="trailing" id="9Lm-Yg-vKA"/>
+                            <constraint firstItem="JPL-KJ-gkD" firstAttribute="leading" secondItem="NJG-Z5-XQB" secondAttribute="leading" id="C9L-nl-ZCM"/>
+                            <constraint firstItem="JPL-KJ-gkD" firstAttribute="trailing" secondItem="wf4-pA-nFY" secondAttribute="trailing" id="Gfo-on-fLZ"/>
+                            <constraint firstItem="wf4-pA-nFY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="Oj6-c3-oek"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wf4-pA-nFY" secondAttribute="trailing" constant="18" id="WvJ-mE-vXx"/>
+                            <constraint firstItem="wf4-pA-nFY" firstAttribute="leading" secondItem="JPL-KJ-gkD" secondAttribute="leading" id="Zm4-hC-T5h"/>
+                            <constraint firstItem="JPL-KJ-gkD" firstAttribute="top" secondItem="wf4-pA-nFY" secondAttribute="bottom" constant="77" id="ZmO-1o-MfF"/>
+                            <constraint firstItem="NJG-Z5-XQB" firstAttribute="top" secondItem="JPL-KJ-gkD" secondAttribute="bottom" constant="42" id="emE-m8-kUb"/>
+                            <constraint firstItem="wf4-pA-nFY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="72" id="rWI-sa-uYh"/>
                         </constraints>
                     </view>
                     <connections>

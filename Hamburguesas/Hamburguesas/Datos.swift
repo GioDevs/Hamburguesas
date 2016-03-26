@@ -31,7 +31,7 @@ class ColeccionDePaises {
         "China",
         "Japon",
         "Korea",
-        "Intalia",
+        "Italia",
         "Inglaterra",
         "Rusia",
         "Francia",
